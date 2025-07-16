@@ -1,7 +1,31 @@
-import React from 'react'
+import React,{ useRef } from 'react'
 import Breadcrumb from '../components/Breadcrumb'
-
+import emailjs from "@emailjs/browser";
 export default function Contact() {
+      const form = useRef();
+      
+        const sendEmail = (e) => {
+          e.preventDefault();
+      
+          emailjs
+            .sendForm(
+              "service_j7zxk6f",
+              "template_x5qsowb",
+              form.current,
+              "ET1I6lsZFuKMM2xCf"
+            )
+            .then(
+              (result) => {
+                console.log("Email Sent:", result.text);
+                alert("Email sent successfully!");
+                form.current.reset();
+              },
+              (error) => {
+                console.error("Error:", error.text);
+              }
+            );
+        };
+    
   return (
     <div>
       
@@ -16,41 +40,41 @@ export default function Contact() {
                             <h2 class="display-4 text-capitalize mb-3">Send Your Message</h2>
                             
                         </div>
-                        <form>
+                        <form ref={form} onSubmit={sendEmail}>
                             <div class="row g-3">
                                 <div class="col-lg-12 col-xl-6">
                                     <div class="form-floating border border-secondary">
-                                        <input type="text" class="form-control" id="name" placeholder="Your Name"/>
+                                        <input type="text" name="name" class="form-control" id="name" placeholder="Your Name" required/>
                                         <label for="name">Your Name</label>
                                     </div>
                                 </div>
                                 <div class="col-lg-12 col-xl-6">
                                     <div class="form-floating border border-secondary">
-                                        <input type="email" class="form-control" id="email" placeholder="Your Email"/>
+                                        <input type="email" name="email" class="form-control" id="email" placeholder="Your Email" required/>
                                         <label for="email">Your Email</label>
                                     </div>
                                 </div>
                                 <div class="col-lg-12 col-xl-6">
                                     <div class="form-floating border border-secondary">
-                                        <input type="phone" class="form-control" id="phone" placeholder="Phone"/>
+                                        <input type="phone" name="phone" class="form-control" id="phone" placeholder="Phone" required/>
                                         <label for="phone">Your Phone</label>
                                     </div>
                                 </div>
                                 <div class="col-lg-12 col-xl-6">
                                     <div class="form-floating border border-secondary">
-                                        <input type="text" class="form-control" id="project" placeholder="Project"/>
+                                        <input type="text" name="project" class="form-control" id="project" placeholder="Project" required/>
                                         <label for="project">Your Project</label>
                                     </div>
                                 </div>
                                 <div class="col-12">
                                     <div class="form-floating border border-secondary">
-                                        <input type="text" class="form-control" id="subject" placeholder="Subject"/>
+                                        <input type="text" name="subject" class="form-control" id="subject" placeholder="Subject" required/>
                                         <label for="subject">Subject</label>
                                     </div>
                                 </div>
                                 <div class="col-12">
                                     <div class="form-floating border border-secondary">
-                                        <textarea class="form-control" placeholder="Leave a message here" id="message" style={{height: "160px"}}></textarea>
+                                        <textarea class="form-control" name="message" placeholder="Leave a message here" id="message" style={{height: "160px"}}></textarea>
                                         <label for="message">Message</label>
                                     </div>
                                 </div>
@@ -62,7 +86,7 @@ export default function Contact() {
                     </div>
                     <div class="col-lg-6 wow fadeInRight" data-wow-delay="0.4s">
                         <div class="contact-map h-100 w-100">
-                            <iframe class="h-100 w-100" 
+                            <iframe className="h-100 w-100" 
                             style={{height: "500px"}} src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d387191.33750346623!2d-73.97968099999999!3d40.6974881!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89c24fa5d33f083b%3A0xc80b8f06e177fe62!2sNew%20York%2C%20NY%2C%20USA!5e0!3m2!1sen!2sbd!4v1694259649153!5m2!1sen!2sbd" 
                             loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
                         </div>
