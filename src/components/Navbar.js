@@ -51,7 +51,7 @@ export default function Navbar() {
             <Link to="/contact" className={`nav-item nav-link ${isActive("/contact")}`}>Contact</Link>
           </div>
           <div className="d-flex align-items-center flex-nowrap pt-3 pt-lg-0 ms-lg-2">
-            <Link to="#" className="btn btn-secondary py-2 px-4 ms-3 flex-wrap flex-sm-shrink-0">Get a Quote</Link>
+            <Link to="tel:+918551859755" className="btn btn-secondary py-2 px-4 ms-3 flex-wrap flex-sm-shrink-0">Call Now</Link>
           </div>
         </div>
       </nav>

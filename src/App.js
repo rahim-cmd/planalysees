@@ -11,6 +11,13 @@ import Topbar from './components/Topbar';
 import Testimonial from './components/Testimonial';
 import Estimation from './pages/Estimation';
 import CadDrafting from './pages/CadDrafting';
+import InteriorRendering from './pages/InteriorRendering';
+import MepfModeling from './pages/MepfModeling';
+import StructuralModeling from './pages/StructuralModeling';
+import ShopDrawings from './pages/ShopDrawings';
+import SteelDetailing from './pages/SteelDetailing';
+import SteelEstimation from './pages/SteelEstimation';
+import QuantitySurveying from './pages/QuantitySurveying';
 
 function App() {
   return (
@@ -26,8 +33,15 @@ function App() {
         <Route path="building-information-modeling" element={<Bim/>}/>
         <Route path="estimation" element={<Estimation/>}/>
         <Route path="cad-drafting" element={<CadDrafting/>}/>
+        <Route path="interior-rendering" element={<InteriorRendering/>}/>
+        <Route path="mepf-modeling" element={<MepfModeling/>}/>
+        <Route path="structural-designing" element={<StructuralModeling/>}/>
+        <Route path="shop-drawings" element={<ShopDrawings/>}/>
+        <Route path="steel-detailing" element={<SteelDetailing/>}/>
+        <Route path="steel-estimation" element={<SteelEstimation/>}/>
+        <Route path="quantity-surveying" element={<QuantitySurveying/>}/>
         <Route path="contact" element={<Contact/>}/>
-        <Route path="testimonial" element={<Testimonial/>}/>
+       
       </Routes>
       <Footer/>
     </Router>

@@ -102,7 +102,112 @@ export default function Breadcrumb() {
             </div>
         );
 
-    } else {
+    } else if(path === '/interior-rendering'){
+
+        return (
+            <div className="container-fluid bg-breadcrumb">
+                <div className="container text-center py-5" style={{ maxWidth: "900px" }}>
+                    <h4 className="text-white display-4 mb-4 wow fadeInDown" data-wow-delay="0.1s">Services</h4>
+                    <ol className="breadcrumb d-flex justify-content-center mb-0 wow fadeInDown" data-wow-delay="0.3s">
+                        <li className="breadcrumb-item"><Link to="/">Home</Link></li>
+                        <li className="breadcrumb-item"><Link to="#">Pages</Link></li>
+                        <li className="breadcrumb-item active text-secondary">Interior Rendering</li>
+                    </ol>
+                </div>
+            </div>
+        );
+
+    }else if(path === '/mepf-modeling'){
+
+        return (
+            <div className="container-fluid bg-breadcrumb">
+                <div className="container text-center py-5" style={{ maxWidth: "900px" }}>
+                    <h4 className="text-white display-4 mb-4 wow fadeInDown" data-wow-delay="0.1s">Services</h4>
+                    <ol className="breadcrumb d-flex justify-content-center mb-0 wow fadeInDown" data-wow-delay="0.3s">
+                        <li className="breadcrumb-item"><Link to="/">Home</Link></li>
+                        <li className="breadcrumb-item"><Link to="#">Pages</Link></li>
+                        <li className="breadcrumb-item active text-secondary">MEPF MODELING</li>
+                    </ol>
+                </div>
+            </div>
+        );
+
+    }else if(path === "/structural-designing"){
+
+        return (
+            <div className="container-fluid bg-breadcrumb">
+                <div className="container text-center py-5" style={{ maxWidth: "900px" }}>
+                    <h4 className="text-white display-4 mb-4 wow fadeInDown" data-wow-delay="0.1s">Services</h4>
+                    <ol className="breadcrumb d-flex justify-content-center mb-0 wow fadeInDown" data-wow-delay="0.3s">
+                        <li className="breadcrumb-item"><Link to="/">Home</Link></li>
+                        <li className="breadcrumb-item"><Link to="#">Pages</Link></li>
+                        <li className="breadcrumb-item active text-secondary">Structural Modeling</li>
+                    </ol>
+                </div>
+            </div>
+        );
+
+    }else if(path === '/shop-drawing'){
+
+        return (
+            <div className="container-fluid bg-breadcrumb">
+                <div className="container text-center py-5" style={{ maxWidth: "900px" }}>
+                    <h4 className="text-white display-4 mb-4 wow fadeInDown" data-wow-delay="0.1s">Services</h4>
+                    <ol className="breadcrumb d-flex justify-content-center mb-0 wow fadeInDown" data-wow-delay="0.3s">
+                        <li className="breadcrumb-item"><Link to="/">Home</Link></li>
+                        <li className="breadcrumb-item"><Link to="#">Pages</Link></li>
+                        <li className="breadcrumb-item active text-secondary">Shop Drawing</li>
+                    </ol>
+                </div>
+            </div>
+        );
+
+    }else if(path === '/steel-detailing'){
+
+         return (
+            <div className="container-fluid bg-breadcrumb">
+                <div className="container text-center py-5" style={{ maxWidth: "900px" }}>
+                    <h4 className="text-white display-4 mb-4 wow fadeInDown" data-wow-delay="0.1s">Services</h4>
+                    <ol className="breadcrumb d-flex justify-content-center mb-0 wow fadeInDown" data-wow-delay="0.3s">
+                        <li className="breadcrumb-item"><Link to="/">Home</Link></li>
+                        <li className="breadcrumb-item"><Link to="#">Pages</Link></li>
+                        <li className="breadcrumb-item active text-secondary">Steel Detailing</li>
+                    </ol>
+                </div>
+            </div>
+        );
+
+    }else if(path === '/steel-estimation'){
+
+         return (
+            <div className="container-fluid bg-breadcrumb">
+                <div className="container text-center py-5" style={{ maxWidth: "900px" }}>
+                    <h4 className="text-white display-4 mb-4 wow fadeInDown" data-wow-delay="0.1s">Services</h4>
+                    <ol className="breadcrumb d-flex justify-content-center mb-0 wow fadeInDown" data-wow-delay="0.3s">
+                        <li className="breadcrumb-item"><Link to="/">Home</Link></li>
+                        <li className="breadcrumb-item"><Link to="#">Pages</Link></li>
+                        <li className="breadcrumb-item active text-secondary">Steel Estimation</li>
+                    </ol>
+                </div>
+            </div>
+        );
+
+    }else if(path === '/quantity-surveying'){
+
+         return (
+            <div className="container-fluid bg-breadcrumb">
+                <div className="container text-center py-5" style={{ maxWidth: "900px" }}>
+                    <h4 className="text-white display-4 mb-4 wow fadeInDown" data-wow-delay="0.1s">Services</h4>
+                    <ol className="breadcrumb d-flex justify-content-center mb-0 wow fadeInDown" data-wow-delay="0.3s">
+                        <li className="breadcrumb-item"><Link to="/">Home</Link></li>
+                        <li className="breadcrumb-item"><Link to="#">Pages</Link></li>
+                        <li className="breadcrumb-item active text-secondary">Quantity Surveying</li>
+                    </ol>
+                </div>
+            </div>
+        );
+
+    }else {
         return null;
     }
 }
