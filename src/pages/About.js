@@ -1,5 +1,5 @@
-import Breadcrumb from "../components/Breadcrumb"
-
+import Breadcrumb from "../components/Breadcrumb";
+import { Link } from "react-router-dom";
 export default function About() {
 
   return (
@@ -70,7 +70,7 @@ drawing at a time
                                     <p className="text-dark mb-0"><i className="fas fa-check text-secondary me-1"></i> Flexible and cost effective</p>
                                 </div>
                             </div>
-                            <a className="btn btn-secondary d-inline-block py-3 px-5 me-2 flex-shrink-0 wow fadeInUp" data-wow-delay="0.1s" href="#">Discover More</a>
+                            <Link className="btn btn-secondary d-inline-block py-3 px-5 me-2 flex-shrink-0 wow fadeInUp" data-wow-delay="0.1s" to="/services">Discover More</Link>
                         </div>
                     </div>
                 </div>

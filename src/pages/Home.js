@@ -29,8 +29,8 @@ export default function Home() {
                             <p className="mb-5 fs-5 fadeInUp animate__animated" data-animation="fadeInUp" data-delay='1.5s' style={{animationDelay: '1.5s'}}>Your vision, our foundation — crafting structures that last a lifetime. 
                             </p>
                             <div className="d-flex justify-content-center">
-                                <Link className="btn btn-primary d-flex py-3 px-5 me-2 flex-shrink-0 fadeInUp animate__animated" data-animation="fadeInUp" data-delay='1.5s' style={{animationDelay: '1.7s'}} to="#">Apply Now</Link>
-                                <Link className="btn btn-secondary d-inline-block py-3 px-5 ms-2 flex-shrink-0 fadeInUp animate__animated" data-animation="fadeInUp" data-delay='1.5s' style={{animationDelay: '1.7s'}} to="#">Read More</Link>
+                                <Link className="btn btn-primary d-flex py-3 px-5 me-2 flex-shrink-0 fadeInUp animate__animated" data-animation="fadeInUp" data-delay='1.5s' style={{animationDelay: '1.7s'}} to="/contact">Apply Now</Link>
+                                <Link className="btn btn-secondary d-inline-block py-3 px-5 ms-2 flex-shrink-0 fadeInUp animate__animated" data-animation="fadeInUp" data-delay='1.5s' style={{animationDelay: '1.7s'}} to="/services">Read More</Link>
                             </div>
                         </div>
                     </div>
@@ -42,8 +42,8 @@ export default function Home() {
                             <p className="mb-5 fs-5 fadeInUp animate__animated" data-animation="fadeInUp" data-delay='1.5s' style={{animationDelay: '1.5s'}}>Blending technology and craftsmanship to deliver future-ready infrastructure.
                             </p>
                             <div className="d-flex justify-content-center">
-                                <Link className="btn btn-primary d-flex py-3 px-5 me-2 flex-shrink-0 fadeInUp animate__animated" data-animation="fadeInUp" data-delay='1.5s' style={{animationDelay: '1.7s'}} to="#">Apply Now</Link>
-                                <Link className="btn btn-secondary d-inline-block py-3 px-5 ms-2 flex-shrink-0 fadeInUp animate__animated" data-animation="fadeInUp" data-delay='1.5s' style={{animationDelay: '1.7s'}} to="#">Read More</Link>
+                                <Link className="btn btn-primary d-flex py-3 px-5 me-2 flex-shrink-0 fadeInUp animate__animated" data-animation="fadeInUp" data-delay='1.5s' style={{animationDelay: '1.7s'}} to="/contact">Apply Now</Link>
+                                <Link className="btn btn-secondary d-inline-block py-3 px-5 ms-2 flex-shrink-0 fadeInUp animate__animated" data-animation="fadeInUp" data-delay='1.5s' style={{animationDelay: '1.7s'}} to="/services">Read More</Link>
                             </div>
                         </div>
                     </div>
@@ -55,8 +55,8 @@ export default function Home() {
                             <p className="mb-5 fs-5 fadeInUp animate__animated" data-animation="fadeInUp" data-delay='1.5s' style={{animationDelay: '1.5s'}}>From blueprint to build — we deliver with speed, safety, and integrity. 
                             </p>
                             <div className="d-flex justify-content-center">
-                                <Link className="btn btn-primary d-flex py-3 px-5 me-2 flex-shrink-0 fadeInUp animate__animated" data-animation="fadeInUp" data-delay='1.5s' style={{animationDelay: '1.7s'}} to="#">Apply Now</Link>
-                                <Link className="btn btn-secondary d-inline-block py-3 px-5 ms-2 flex-shrink-0 fadeInUp animate__animated" data-animation="fadeInUp" data-delay='1.5s' style={{animationDelay: '1.7s'}}to="#">Read More</Link>
+                                <Link className="btn btn-primary d-flex py-3 px-5 me-2 flex-shrink-0 fadeInUp animate__animated" data-animation="fadeInUp" data-delay='1.5s' style={{animationDelay: '1.7s'}} to="/contact">Apply Now</Link>
+                                <Link className="btn btn-secondary d-inline-block py-3 px-5 ms-2 flex-shrink-0 fadeInUp animate__animated" data-animation="fadeInUp" data-delay='1.5s' style={{animationDelay: '1.7s'}}to="/services">Read More</Link>
                             </div>
                         </div>
                     </div>
