@@ -2,8 +2,7 @@ import Feature from "../components/Feature";
 import Counter from "../components/Counter";
 import Project from "../components/Project";
 import Team from "../components/Team";
-import Blog from "../components/Blog";
-import Testimonial from "../components/Testimonial";
+
 import Services from "./Services";
 import About from "./About";
 import { Link } from "react-router-dom";
@@ -78,8 +77,7 @@ export default function Home() {
           <Counter/>
           <Project/>
           <Team/>
-          <Blog/>
-          <Testimonial/>
+         
 
     </>
   )

@@ -12,11 +12,11 @@ export default function Footer() {
                         <div className="footer-item d-flex flex-column">
                             <div className="footer-item">
                                 <h4 className="text-white mb-4">Our Services</h4>
-                            <p style={{fontSize:"14px"}}><Link to="#"><i className="fas fa-angle-right me-2"></i> ESTIMATION/QUANTITY SURVEY</Link></p>
-                            <p style={{fontSize:"12px"}}><Link to="#"><i className="fas fa-angle-right me-2"></i> BUILDING INFORMATION MODELING</Link></p>
-                            <p style={{fontSize:"14px"}}><Link to="#"><i className="fas fa-angle-right me-2"></i> CAD DRAFTING</Link></p>
-                            <p style={{fontSize:"14px"}}><Link to="#"><i className="fas fa-angle-right me-2"></i> STEEL DETAILING</Link></p>
-                            <p style={{fontSize:"14px"}}><Link to="#"><i className="fas fa-angle-right me-2"></i> INTERIOR RENDERING
+                            <p style={{fontSize:"14px"}}><Link to="/estimation"><i className="fas fa-angle-right me-2"></i> ESTIMATION/QUANTITY SURVEY</Link></p>
+                            <p style={{fontSize:"12px"}}><Link to="/building-information-modeling"><i className="fas fa-angle-right me-2"></i> BUILDING INFORMATION MODELING</Link></p>
+                            <p style={{fontSize:"14px"}}><Link to="/cad-drafting"><i className="fas fa-angle-right me-2"></i> CAD DRAFTING</Link></p>
+                            <p style={{fontSize:"14px"}}><Link to="/steel-detailing"><i className="fas fa-angle-right me-2"></i> STEEL DETAILING</Link></p>
+                            <p style={{fontSize:"14px"}}><Link to="/interior-rendering"><i className="fas fa-angle-right me-2"></i> INTERIOR RENDERING
 </Link></p>
                             </div>
                         </div>
@@ -25,11 +25,11 @@ export default function Footer() {
                         <div className="footer-item d-flex flex-column">
                             <h4 className="text-white mb-4">Our Services</h4>
                             
-                            <p style={{fontSize:"14px"}}><Link to="#"><i className="fas fa-angle-right me-2"></i> MEPF MODELING</Link></p>
-                            <p style={{fontSize:"14px"}}><Link to="#"><i className="fas fa-angle-right me-2"></i> SHOP DRAWINGS</Link></p>
-                            <p style={{fontSize:"14px"}}><Link to="#"><i className="fas fa-angle-right me-2"></i> TEKLA MODELING</Link></p>
-                            <p style={{fontSize:"14px"}}><Link to="#"><i className="fas fa-angle-right me-2"></i> MEP DESIGNING</Link></p>
-                            <p style={{fontSize:"14px"}}><Link to="#"><i className="fas fa-angle-right me-2"></i> STRUCTURAL DESIGNING
+                            <p style={{fontSize:"14px"}}><Link to="/mepf-modeling"><i className="fas fa-angle-right me-2"></i> MEPF MODELING</Link></p>
+                            <p style={{fontSize:"14px"}}><Link to="/shop-drawing"><i className="fas fa-angle-right me-2"></i> SHOP DRAWINGS</Link></p>
+                            <p style={{fontSize:"14px"}}><Link to="/tekla-modeling"><i className="fas fa-angle-right me-2"></i> TEKLA MODELING</Link></p>
+                            <p style={{fontSize:"14px"}}><Link to="/mep-designing"><i className="fas fa-angle-right me-2"></i> MEP DESIGNING</Link></p>
+                            <p style={{fontSize:"14px"}}><Link to="/structural-designing"><i className="fas fa-angle-right me-2"></i> STRUCTURAL DESIGNING
 </Link></p>
                             
                         </div>

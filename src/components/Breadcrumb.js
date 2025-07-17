@@ -57,6 +57,51 @@ export default function Breadcrumb() {
                 </div>
             </div>
         );
+    }else if(path === '/building-information-modeling'){
+
+        return (
+            <div className="container-fluid bg-breadcrumb">
+                <div className="container text-center py-5" style={{ maxWidth: "900px" }}>
+                    <h4 className="text-white display-4 mb-4 wow fadeInDown" data-wow-delay="0.1s">Services</h4>
+                    <ol className="breadcrumb d-flex justify-content-center mb-0 wow fadeInDown" data-wow-delay="0.3s">
+                        <li className="breadcrumb-item"><Link to="/">Home</Link></li>
+                        <li className="breadcrumb-item"><Link to="#">Pages</Link></li>
+                        <li className="breadcrumb-item active text-secondary">Building-information-modeling</li>
+                    </ol>
+                </div>
+            </div>
+        );
+
+    } else if(path === '/estimation'){
+
+         return (
+            <div className="container-fluid bg-breadcrumb">
+                <div className="container text-center py-5" style={{ maxWidth: "900px" }}>
+                    <h4 className="text-white display-4 mb-4 wow fadeInDown" data-wow-delay="0.1s">Services</h4>
+                    <ol className="breadcrumb d-flex justify-content-center mb-0 wow fadeInDown" data-wow-delay="0.3s">
+                        <li className="breadcrumb-item"><Link to="/">Home</Link></li>
+                        <li className="breadcrumb-item"><Link to="#">Pages</Link></li>
+                        <li className="breadcrumb-item active text-secondary">Estimation</li>
+                    </ol>
+                </div>
+            </div>
+        );
+
+    }else if(path === '/cad-drafting'){
+
+        return (
+            <div className="container-fluid bg-breadcrumb">
+                <div className="container text-center py-5" style={{ maxWidth: "900px" }}>
+                    <h4 className="text-white display-4 mb-4 wow fadeInDown" data-wow-delay="0.1s">Services</h4>
+                    <ol className="breadcrumb d-flex justify-content-center mb-0 wow fadeInDown" data-wow-delay="0.3s">
+                        <li className="breadcrumb-item"><Link to="/">Home</Link></li>
+                        <li className="breadcrumb-item"><Link to="#">Pages</Link></li>
+                        <li className="breadcrumb-item active text-secondary">CAD Drafting</li>
+                    </ol>
+                </div>
+            </div>
+        );
+
     } else {
         return null;
     }
