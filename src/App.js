@@ -8,7 +8,7 @@ import Contact from "./pages/Contact";
 import Project from "./components/Project";
 import Footer from './components/Footer';
 import Topbar from './components/Topbar';
-import Testimonial from './components/Testimonial';
+
 import Estimation from './pages/Estimation';
 import CadDrafting from './pages/CadDrafting';
 import InteriorRendering from './pages/InteriorRendering';
