@@ -18,12 +18,14 @@ import ShopDrawings from './pages/ShopDrawings';
 import SteelDetailing from './pages/SteelDetailing';
 import SteelEstimation from './pages/SteelEstimation';
 import QuantitySurveying from './pages/QuantitySurveying';
+import ScrollToTop from './components/ScrollToTop';
 
 function App() {
   return (
     <>
     <Router>
       <Topbar/>
+      <ScrollToTop/>
       <Navbar/>
       <Routes>
         <Route index element={<Home/>}/>
