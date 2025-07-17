@@ -48,7 +48,7 @@ export default function Footer() {
                     <div className="col-md-6 col-lg-6 col-xl-3">
                         <div className="footer-item d-flex flex-column">
                             <h4 className="text-white mb-4">Contact Info</h4>
-                            <Link to=""><i className="fa fa-map-marker-alt me-2"></i>Nagpur, Maharashtra, India</Link>
+                            <Link to=""><i className="fa fa-map-marker-alt me-2"></i>Plot no. 89, Adarsh Gruh Nirman Society, Near Hanuman Mandir, Anant Nagar, Nagpur, Maharashtra, India</Link>
                             <Link to="mailto:anas@planalysees.com"><i className="fas fa-envelope me-2"></i> anas@planalysees.com</Link>
                             <Link to="mailto:anas@planalysees.com"><i className="fas fa-envelope me-2"></i> anas@planalysees.com</Link>
                             <Link to="tel:+918551859755"><i className="fas fa-phone me-2"></i> +91-8551859755</Link>

@@ -6,7 +6,7 @@ export default function Topbar() {
             <div className="row gx-0 align-items-center" style={{height: "45px"}}>
                 <div className="col-lg-6 text-center text-lg-start mb-lg-0">
                     <div className="d-flex flex-wrap">
-                        <Link to="#" className="text-muted me-4"><i className="fas fa-map-marker-alt text-secondary me-2"></i>Find A Location</Link>
+                        <Link to="#" className="text-muted me-4"><i className="fas fa-map-marker-alt text-secondary me-2"></i>Nagpur,India</Link>
                         <Link to="tel:+91 8551859755" className="text-muted me-4"><i className="fas fa-phone-alt text-secondary me-2"></i>+91-8551859755</Link>
                         <Link to="#" className="text-muted me-0"><i className="fas fa-envelope text-secondary me-2"></i>anas@planalysees.com</Link>
                     </div>
