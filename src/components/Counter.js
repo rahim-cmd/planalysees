@@ -1,5 +1,5 @@
 import React from 'react'
-
+import { Link } from 'react-router-dom'
 export default function Counter() {
   return (
    <div className="container-fluid counter py-5">
@@ -13,7 +13,7 @@ export default function Counter() {
                                     <i className="fas fa-thumbs-up fa-4x text-secondary"></i>
                                     <h4 className="text-dark my-4">Completed Projects</h4>
                                     <div className="counter-counting">
-                                        <span className="text-secondary fs-2 fw-bold" data-toggle="counter-up">456</span>
+                                        <span className="text-secondary fs-2 fw-bold" data-toggle="counter-up">4</span>
                                         <span className="h1 fw-bold text-secondary">+</span>
                                     </div>
                                 </div>
@@ -28,7 +28,7 @@ export default function Counter() {
                                     <i className="fas fa-users fa-4x text-secondary"></i>
                                     <h4 className="text-dark my-4">Happy Customers</h4>
                                     <div className="counter-counting">
-                                        <span className="text-secondary fs-2 fw-bold" data-toggle="counter-up">513</span>
+                                        <span className="text-secondary fs-2 fw-bold" data-toggle="counter-up">3</span>
                                         <span className="h1 fw-bold text-secondary">+</span>
                                     </div>
                                 </div>
@@ -43,7 +43,7 @@ export default function Counter() {
                                     <i className="fas fa-user fa-4x text-secondary"></i>
                                     <h4 className="text-dark my-4">Qualified Engineers</h4>
                                     <div className="counter-counting">
-                                        <span className="text-secondary fs-2 fw-bold" data-toggle="counter-up">53</span>
+                                        <span className="text-secondary fs-2 fw-bold" data-toggle="counter-up">3</span>
                                         <span className="h1 fw-bold text-secondary">+</span>
                                     </div>
                                 </div>
@@ -58,7 +58,7 @@ export default function Counter() {
                                     <i className="fas fa-heart fa-4x text-secondary"></i>
                                     <h4 className="text-dark my-4">Years Experiance</h4>
                                     <div className="counter-counting">
-                                        <span className="text-secondary fs-2 fw-bold" data-toggle="counter-up">17</span>
+                                        <span className="text-secondary fs-2 fw-bold" data-toggle="counter-up">5</span>
                                         <span className="h1 fw-bold text-secondary">+</span>
                                     </div>
                                 </div>
@@ -66,7 +66,7 @@ export default function Counter() {
                         </div>
                     </div>
                     <div className="col-12 text-center pt-4 wow fadeInUp" data-wow-delay="0.9s">
-                        <a className="counter-btn btn btn-secondary py-3 px-5" href="#">Join With Us</a>
+                        <Link className="counter-btn btn btn-secondary py-3 px-5" to="/contact">Join With Us</Link>
                     </div>
                 </div>
             </div>

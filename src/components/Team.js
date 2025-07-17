@@ -25,8 +25,8 @@ export default function Team() {
                                 </div>
                             </div>
                             <div className="text-center border border-top-0 bg-white py-3">
-                                <h4 className="mb-0">Masud Maria</h4>
-                                <p className="mb-0">Foreman</p>
+                                <h4 className="mb-0">Khalid Ansari</h4>
+                                <p className="mb-0">Project Manager</p>
                             </div>
                         </div>
                     </div>
@@ -46,8 +46,8 @@ export default function Team() {
                                 </div>
                             </div>
                             <div className="text-center border border-top-0 bg-white py-3">
-                                <h4 className="mb-0">Masud Maria</h4>
-                                <p className="mb-0">Foreman</p>
+                                <h4 className="mb-0">Masud Khan</h4>
+                                <p className="mb-0">Engineer</p>
                             </div>
                         </div>
                     </div>
@@ -67,7 +67,7 @@ export default function Team() {
                                 </div>
                             </div>
                             <div className="text-center border border-top-0 bg-white py-3">
-                                <h4 className="mb-0">Masud Maria</h4>
+                                <h4 className="mb-0">Anil Golhani</h4>
                                 <p className="mb-0">Foreman</p>
                             </div>
                         </div>
@@ -88,8 +88,8 @@ export default function Team() {
                                 </div>
                             </div>
                             <div className="text-center border border-top-0 bg-white py-3">
-                                <h4 className="mb-0">Masud Maria</h4>
-                                <p className="mb-0">Foreman</p>
+                                <h4 className="mb-0">Ankit Waghmare</h4>
+                                <p className="mb-0">Supervisor</p>
                             </div>
                         </div>
                     </div>
