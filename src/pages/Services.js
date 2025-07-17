@@ -46,7 +46,7 @@ export default function Services() {
   {
     title: "Structural Modeling",
     description: "3D models for structural integrity, analysis, and collaboration across design teams.",
-    link: "/structural-modeling",
+    link: "/structural-designing",
     icon: "🏢",
   },
   {
