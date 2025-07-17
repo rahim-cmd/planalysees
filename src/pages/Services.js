@@ -3,6 +3,9 @@ import { Link } from 'react-router-dom';
 import Breadcrumb from '../components/Breadcrumb';
 
 export default function Services() {
+     const scrollToTop = () => {
+        window.scrollTo({ top: 0, left: 0, behavior: 'smooth' });
+      };
     const services = [
   {
     title: "BIM (Building Information Modeling)",
@@ -78,7 +81,7 @@ export default function Services() {
       <div className="row g-4">
         {services.map((service, index) => (
           <div className="col-md-6 col-lg-4" key={index}>
-            <Link to={service.link} className="text-decoration-none text-dark">
+            <Link to={service.link} className="text-decoration-none text-dark" onclick={scrollToTop}>
               <div className="card h-100 shadow-sm border-0">
                 <div className="card-body text-center">
                   <div className="mb-3 fs-1">{service.icon}</div>
@@ -91,7 +94,7 @@ export default function Services() {
                     `}
                 </style>
                 <div className="card-footer bg-white border-0 text-center">
-                  <button className="btn btn-outline-primary lm">Learn More</button>
+                  <button className="btn btn-outline-primary lm" onclick={scrollToTop}>Learn More</button>
                 </div>
               </div>
             </Link>
