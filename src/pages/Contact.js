@@ -62,7 +62,20 @@ export default function Contact() {
                                 </div>
                                 <div class="col-lg-12 col-xl-6">
                                     <div class="form-floating border border-secondary">
-                                        <input type="text" name="project" class="form-control" id="project" placeholder="Project" required/>
+                                        <select type="text" name="project" class="form-control" id="project" placeholder="Project" required>
+                                            <option value="">Choose ...</option>
+                                            <option value="Building-information-modeling">Building Information Modeling</option>
+                                            <option value="Project Estimation">Project Estimation</option>
+                                            <option value="CAD Drafting">CAD Drafting</option>
+                                            <option value="Steel Detailing">Steel Detailing</option>
+                                            <option value="Interior Rendering">Interior Rendering</option>
+                                            <option value="MEPF Modeling">MEPF MODELING</option>
+                                            <option value="Shop Drawing">Shop Drawing</option>
+                                            <option value="Quantiry Surveying">Quantity Surveying</option>
+                                            <option value="Steel Estimation"> Steel Estimation</option>
+                                            <option value="Structural Designing">Structural Designing</option>
+
+                                        </select>
                                         <label for="project">Your Project</label>
                                     </div>
                                 </div>
