@@ -34,7 +34,7 @@ export default function Feature() {
                                 <i className="fas fa-tools text-primary fa-5x"></i>
                             </div>
                             <Link to="#" className="h4 d-block my-4">Quality Materials</Link>
-                            <p className="mb-0">We know cost effectiveness but we don't compromise & provide quality material.'</p>
+                            <p className="mb-0">We know cost effectiveness but we don't compromise & provide quality material.</p>
                         </div>
                     </div>
                 </div>
