@@ -35,7 +35,7 @@ export default function Home() {
                     <div className="carousel-item">
                         <img src="img/carousel-2.jpg" className="img-fluid w-100" alt="Second slide"/>
                         <div className="carousel-caption">
-                            <p className="text-uppercase text-secondary fs-4 mb-0 fadeInUp animate__animated" data-animation="fadeInUp" data-delay='1s' style={{animationDelay: '1s'}}>Construction Business</p>
+                            <p className="text-uppercase text-secondary fs-4 mb-0 fadeInUp animate__animated" data-animation="fadeInUp" data-delay='1s' style={{animationDelay: '1s'}}>PLANALYSE</p>
                             <h1 className="display-1 text-capitalize text-white mb-4 fadeInUp animate__animated" data-animation="fadeInUp" data-delay='1.3s' style={{animationDelay: '1.3s'}}>Smart Construction for a Stronger Tomorrow.</h1>
                             <p className="mb-5 fs-5 fadeInUp animate__animated" data-animation="fadeInUp" data-delay='1.5s' style={{animationDelay: '1.5s'}}>Blending technology and craftsmanship to deliver future-ready infrastructure.
                             </p>
