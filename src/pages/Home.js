@@ -1,8 +1,6 @@
 import Feature from "../components/Feature";
 import Counter from "../components/Counter";
 import Project from "../components/Project";
-import Team from "../components/Team";
-
 import Services from "./Services";
 import About from "./About";
 import { Link } from "react-router-dom";
@@ -24,7 +22,7 @@ export default function Home() {
                     <div className="carousel-item active">
                         <img src="img/carousel-1.jpg" className="img-fluid w-100" alt="First slide"/>
                         <div className="carousel-caption">
-                            <p className="text-uppercase text-secondary fs-4 mb-0 fadeInUp animate__animated" data-animation="fadeInUp" data-delay='1s' style={{animationDelay: '1s'}}>Construction Business</p>
+                            <p className="text-uppercase text-secondary fs-4 mb-0 fadeInUp animate__animated" data-animation="fadeInUp" data-delay='1s' style={{animationDelay: '1s'}}>PLANALYSE</p>
                             <h1 className="display-1 text-capitalize text-white mb-4 fadeInUp animate__animated" data-animation="fadeInUp" data-delay='1.3s' style={{animationDelay: '1s'}}>Building Dreams with Precision & Passion.</h1>
                             <p className="mb-5 fs-5 fadeInUp animate__animated" data-animation="fadeInUp" data-delay='1.5s' style={{animationDelay: '1.5s'}}>Your vision, our foundation — crafting structures that last a lifetime. 
                             </p>
@@ -55,7 +53,7 @@ export default function Home() {
                             <p className="mb-5 fs-5 fadeInUp animate__animated" data-animation="fadeInUp" data-delay='1.5s' style={{animationDelay: '1.5s'}}>From blueprint to build — we deliver with speed, safety, and integrity. 
                             </p>
                             <div className="d-flex justify-content-center">
-                                <Link className="btn btn-primary d-flex py-3 px-5 me-2 flex-shrink-0 fadeInUp animate__animated" data-animation="fadeInUp" data-delay='1.5s' style={{animationDelay: '1.7s'}} to="/contact">Apply Now</Link>
+                                <Link className="btn btn-primary d-flex py-3 px-5 me-2 flex-shrink-0 fadeInUp animate__animated" data-animation="fadeInUp" data-delay='1.5s' style={{animationDelay: '1.7s'}} to="/contact">Request Services</Link>
                                 <Link className="btn btn-secondary d-inline-block py-3 px-5 ms-2 flex-shrink-0 fadeInUp animate__animated" data-animation="fadeInUp" data-delay='1.5s' style={{animationDelay: '1.7s'}}to="/services">Read More</Link>
                             </div>
                         </div>
@@ -77,7 +75,7 @@ export default function Home() {
           <Services/>
           <Counter/>
           <Project/>
-          <Team/>
+          
          
 
     </>

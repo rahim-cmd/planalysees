@@ -19,10 +19,9 @@ export default function About() {
                     </div>
                     <div className="col-xl-6 wow fadeInRight" data-wow-delay="0.1s">
                         <div className="about-item-content">
-                            <p className="text-uppercase text-secondary fs-5 mb-0">WE ARE CONSTRUCTION COMPANY</p>
+                            <p className="text-uppercase text-secondary fs-5 mb-0">WE ARE PLANALYSE</p>
                             <h2 className="display-4 text-capitalize mb-3">Making your vision come true at the basics.</h2>
-                            <p className="mb-4 fs-7">Planalyse is a Nagpur-based construction technology firm
-founded in 2025. We specialize in BIM, Estimation, Quantity
+                            <p className="mb-4 fs-7">Planalyse is a construction technology firm based in Nagpur, offering advanced and innovative solutions tailored for the construction industry. We specialize in BIM, Estimation, Quantity
 Surveying, CAD Drafting, MEPF & Steel Shop Drawings, Steel
 Detailing, and Interior Rendering.
 Driven by the motto "Analyse your drawings, channelise your
@@ -31,9 +30,7 @@ work,
 fabricators streamline their workflows using advanced digital
 tools.
 What sets us apart is our commitment to accuracy, innovation,
-and industry transformation. A key highlight includes delivering
-a full MEP model for a project in Sydney for DBS Consulting,
-earning high client satisfaction.
+and industry transformation.
 At Planalyse, we’re shaping the future of construction—one
 drawing at a time 
                             </p>

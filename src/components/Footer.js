@@ -26,7 +26,7 @@ export default function Footer() {
                             <h4 className="text-white mb-4">Our Services</h4>
                             
                             <p style={{fontSize:"14px"}}><Link to="/mepf-modeling" onClick={scrollToTop}><i className="fas fa-angle-right me-2"></i> MEPF MODELING</Link></p>
-                            <p style={{fontSize:"14px"}}><Link to="/shop-drawing" onClick={scrollToTop}><i className="fas fa-angle-right me-2"></i> SHOP DRAWINGS</Link></p>
+                            <p style={{fontSize:"14px"}}><Link to="/shop-drawings" onClick={scrollToTop}><i className="fas fa-angle-right me-2"></i> SHOP DRAWINGS</Link></p>
                             <p style={{fontSize:"14px"}}><Link to="/quantity-surveying" onClick={scrollToTop}><i className="fas fa-angle-right me-2"></i> QUANTITY SURVEYING</Link></p>
                             <p style={{fontSize:"14px"}}><Link to="/steel-estimation" onClick={scrollToTop}><i className="fas fa-angle-right me-2"></i> STEEL ESTIMATION</Link></p>
                             <p style={{fontSize:"14px"}}><Link to="/structural-designing" onClick={scrollToTop}><i className="fas fa-angle-right me-2"></i> STRUCTURAL DESIGNING
