@@ -100,8 +100,7 @@ export default function Contact() {
                     <div class="col-lg-6 wow fadeInRight" data-wow-delay="0.4s">
                         <div class="contact-map h-100 w-100">
                             <iframe className="h-100 w-100" 
-                            style={{height: "500px"}} src="
-                            https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d782.0844629510584!2d79.05745057666114!3d21.182558053203078!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3bd4c1457331dc9f%3A0x7ce6be44a6774471!2sAnantnagar%20adarsh%20grih%20nirman%20society%20ground%20garden!5e0!3m2!1sen!2sin!4v1773065147901!5m2!1sen!2sin"
+                            style={{height: "500px"}} src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d782.0844629510584!2d79.05745057666114!3d21.182558053203078!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3bd4c1457331dc9f%3A0x7ce6be44a6774471!2sAnantnagar%20adarsh%20grih%20nirman%20society%20ground%20garden!5e0!3m2!1sen!2sin!4v1773065147901!5m2!1sen!2sin"
                             loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
                         </div>
                     </div>
