@@ -22,9 +22,9 @@ export default function Project() {
                                 </div>
                                 <div className="col-md-8">
                                     <div className="project-content mb-4">
-                                        <p className="fs-5 text-secondary mb-2">Modeling</p>
-                                        <Link to="#" className="h4">MEP MODEL</Link>
-                                        <p className="mb-0 mt-3">SYDNEY, AUSTRALIA</p>
+                                        <p className="fs-5 text-secondary mb-2">Design</p>
+                                        <Link to="#" className="h4">ARCHITECTURAL DESIGN</Link>
+                                        <p className="mb-0 mt-3">FELTHAM, UK</p>
                                     </div>
                                     <Link className="btn btn-primary py-2 px-4" to="#">Read More</Link>
                                 </div>

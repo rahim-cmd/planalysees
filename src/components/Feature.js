@@ -25,7 +25,7 @@ export default function Feature() {
                                 <i className="fas fa-funnel-dollar text-primary fa-5x"></i>
                             </div>
                             <Link to="#" className="h4 d-block my-4">Free Estimates</Link>
-                            <p className="mb-0">On some models we provide free estimates as well.</p>
+                            <p className="mb-0">Get free estimates as scheduled along with BIM models.</p>
                         </div>
                     </div>
                     <div className="col-lg-4 wow fadeInUp" data-wow-delay="0.6s">
@@ -34,7 +34,8 @@ export default function Feature() {
                                 <i className="fas fa-tools text-primary fa-5x"></i>
                             </div>
                             <Link to="#" className="h4 d-block my-4">Quality Materials</Link>
-                            <p className="mb-0">We know cost effectiveness but we don't compromise & provide quality material.</p>
+                            <p className="mb-0">
+                                Achieving cost-effectiveness without compromising on quality.</p>
                         </div>
                     </div>
                 </div>

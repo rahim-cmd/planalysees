@@ -8,10 +8,7 @@ export default function Home() {
    
   return (
     <>
-       
-        
-       
-        <div className="container-fluid overflow-hidden px-0">
+          <div className="container-fluid overflow-hidden px-0">
             <div id="carouselId" className="carousel slide" data-bs-ride="carousel">
                 <ol className="carousel-indicators fadeInUp animate__animated" data-animation="fadeInUp" data-delay='1s' style={{animationDelay: '1s'}}>
                     <li data-bs-target="#carouselId" data-bs-slide-to="0" className="active" aria-current="true" aria-label="First slide"></li>
@@ -76,8 +73,6 @@ export default function Home() {
           <Counter/>
           <Project/>
           
-         
-
     </>
   )
 }
